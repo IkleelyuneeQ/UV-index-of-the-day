@@ -12,7 +12,6 @@ const port = process.env.PORT || 3000;
 const ApiKey = "openuv-1oa2crlnnzffmp-io"
 const url = 'https://api.openuv.io/api/v1/uv';
 
-app.set('view engine', 'ejs');
 
 // 3. Use the public folder for static files.
 app.use(express.static("public"));
